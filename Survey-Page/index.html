@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <h1 id="title">Survey</h1>
+  <form id="survey-form">
+
+    <p id="description">This is a survry form</p>
+    <label >Name:</label><br>
+    <input type="text" id="name" placeholder="Enter your name"required><br><br>
+    <label for="Email:">Email Adress:</label><br>
+    <input type="email" id="email" placeholder="Enter your email address"required><br><br>
+    <label for="Email:">Age:</label><br>
+    <input type="number" id="number" placeholder="Age" min="18" max="55" >
+
+    <h5>Which of the following best describes your role?</h5>
+</br>
+
+  <select id=" dropdown">
+    <option value="actual value 1">Student</option>
+    <option value="actual value 2">Full time job</option>
+    <option value="actual value 3">Full time learner</option> <br>
+    <option value="actual value 3">Prefer not to say</option> <br>
+ 
+  </select>
+
+  <br>
+
+   <!-- Radio Buttons -->
+
+   <h5>Would you recommend Microverse to a friend?</h5>
+<div id="radio">
+   <label for="recommed-1">
+
+    <input type="radio"
+
+           id="recommed-1"
+
+           name="recommed">Yes</input>
+
+</label>
+<br>
+
+<label for="recommed-2">
+
+    <input type="radio"
+
+           id="recommed-2"
+
+           name="recommed">No</input>
+
+</label>
+
+<br>
+
+<label for="recommed-3">
+
+    <input type="radio"
+
+           id="recommed-3"
+
+           name="recommed">Maybe</input>
+
+</label>
+
+<br>
+
+<br>
+
+</div>
+
+<!--Checkboxes-->
+
+<div id="checkbox">
+
+  <label>Languages and Frameworks known 
+
+      <small>(Check all that apply)</small>
+
+  </label>
+
+  <br> 
+  <br>
+
+
+  <label for="inp-1">
+
+      <input type="checkbox"
+
+             name="inp">C</input></label>
+
+             <br>
+
+  <label for="inp-2">
+
+      <input type="checkbox"
+
+             name="inp">C++</input></label>
+
+             <br>
+
+  <label for="inp-3">
+
+      <input type="checkbox"
+
+             name="inp">C#</input></label>
+
+             <br>
+
+  <label for="inp-4">
+
+      <input type="checkbox"
+
+             name="inp">Java</input></label>
+
+             <br>
+
+  <label for="inp-5">
+
+      <input type="checkbox"
+
+             name="inp">Python</input></label>
+
+             <br>
+
+  <label for="inp-6">
+
+      <input type="checkbox"
+
+             name="inp">JavaScript</input></label>
+
+             <br>
+
+  <label for="inp-7">
+
+      <input type="checkbox"
+
+             name="inp">React</input></label>
+
+             <br>
+
+  <label for="inp-7">
+
+      <input type="checkbox"
+
+             name="inp">Angular</input></label>
+
+             <br>
+
+  <label for="inp-7">
+
+      <input type="checkbox"
+
+             name="inp">Django</input></label>
+
+             <br>
+
+  <label for="inp-7">
+
+      <input type="checkbox"
+
+             name="inp">Spring</input></label>
+
+</div>
+
+<br>
+<br>
+
+<div>
+  <label for="review">Give us your thoughts on our curriculum:</label>
+
+  <br>
+  <br>
+
+<textarea id="textarea"  rows="4" cols="50">
+
+</textarea>
+</div>
+
+  <!-- Multi-line Text Input Control -->
+
+  <button type="submit" value="submit">
+
+    Submit
+
+</button>
+
+  </form>
+
+  
+  
+</body>
+</html>
